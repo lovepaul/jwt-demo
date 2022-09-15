@@ -25,6 +25,7 @@ public class TokenValidateImpl {
 
     @Pointcut("@annotation(com.yjc.authdemo.TokenValidate)")
     public void pointMethod() {
+        // Do nothing because of X and Y
     }
 
     @Around("pointMethod()")
